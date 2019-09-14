@@ -1,4 +1,9 @@
-def hello_t(array) 
+def hello_t(array) do |name|
+  if name.start_with?("T")
+    puts "Hi, #{name}"
+  end
+end
+  
   i = 0
   
   while i < array.length
