@@ -1,8 +1,4 @@
-def hello_t(array) do |name|
-  if name.start_with?("T")
-    puts "Hi, #{name}"
-  end
-end
+def hello_t(array) 
   
   i = 0
   
@@ -15,3 +11,8 @@ end
 
 # call your method here!
 
+def hello_t(array) do |name|
+  if name.start_with?("T")
+    puts "Hi, #{name}"
+  end
+end
